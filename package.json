@@ -13,6 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "typescript": "^2.1.0-dev.20160917"
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.6",
+    "monaco-editor": "^0.6.1",
+    "monaco-typescript": "git://github.com/mhegazy/monaco-typescript.git#95ed107657557b18c2a756c6f3ac693f5e1e69be",
+    "typescript": "next"
   }
 }
