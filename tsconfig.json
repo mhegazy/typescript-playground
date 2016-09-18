@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "strictNullChecks": false,
+        "sourceMap": false
+    },
+    "include": [
+        "playground.ts",
+        "node_modules/typescript/lib/typescriptServices.d.ts"
+    ],
+    "exclude": [
+    ]
+}
