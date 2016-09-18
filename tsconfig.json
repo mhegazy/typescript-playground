@@ -8,10 +8,8 @@
         "strictNullChecks": false,
         "sourceMap": false
     },
-    "include": [
+    "files": [
         "playground.ts",
         "node_modules/typescript/lib/typescriptServices.d.ts"
-    ],
-    "exclude": [
     ]
 }

@@ -35,20 +35,18 @@ declare namespace monaco.editor {
         const DEFAULT_EXAMPLE = '/examples/walkthrough2.ts';
         let sample = '';
 
-        require.config({ paths: { 'vs': './node_modules/monaco-editor/min/vs' } });
+        require.config({ paths: { 'vs': './Script/vs' } });
         require(['vs/editor/editor.main', 'vs/language/typescript/lib/typescriptServices'], function () {
             lhs.editor = monaco.editor.create(lhs.domNode, {
                 value: sample,
                 language: "typescript",
-                formatOnType: true,
-                renderWhitespace: true
+                formatOnType: true
             });
 
             rhs.editor = monaco.editor.create(rhs.domNode, {
                 value: "",
                 language: "javascript",
-                readOnly: true,
-                renderWhitespace: true
+                readOnly: true
             });
 
             console.info('editors rendered @@ ' + ((new Date()).getTime() - startTime) + 'ms');
