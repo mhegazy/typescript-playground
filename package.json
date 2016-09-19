@@ -1,18 +1,18 @@
 {
-  "name": "playground",
-  "version": "1.0.0",
-  "description": "",
-  "main": "playground.js",
-  "directories": {
-    "test": "test"
-  },
+  "name": "typescript-playground",
+  "version": "0.0.1",
+  "description": "Playground for the TypeScript website",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/mhegazy/typescript-playground.git"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "author": "mhegazy",
+  "license": "Apache-2.0",
+  "devDependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-typescript": "^2.13.6",
